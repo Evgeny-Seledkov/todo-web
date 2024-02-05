@@ -11,7 +11,7 @@ def add_todo():
 
 
 st.title("Todo tracker")
-st.subheader("You can new todo items and also make them complete them")
+st.subheader("You can add new todo items and also make them complete")
 st.write("This app is to increase your <b>productivity</b>.", unsafe_allow_html=True)
 
 for index, todo in enumerate(todos):
